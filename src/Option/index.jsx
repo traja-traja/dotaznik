@@ -4,8 +4,8 @@ import './style.css';
 
 const Option = (props) => {
   const handleClick = () => {
-    console.log('kliknuto');
-    props.onSelected();
+    console.log('kliknuto na option');
+    props.onSelect(props.type);
   };
 
   return (
